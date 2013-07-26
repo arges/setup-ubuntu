@@ -1,0 +1,4 @@
+export DEBFULLNAME='Chris J Arges'
+export DEBEMAIL='chris.j.arges@canonical.com'
+alias sl='ls --color=auto'
+#source ~/.canonistack/novarc

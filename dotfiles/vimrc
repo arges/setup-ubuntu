@@ -1,0 +1,3 @@
+set bg=dark
+set showmatch
+set hlsearch

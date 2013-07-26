@@ -1,0 +1,9 @@
+default: lxc
+environments:
+  lxc:
+    type: local
+    control-bucket: juju-a14dfae3830142d9ac23c499395c2785999
+    admin-secret: 6608267bbd6b447b8c90934167b2a294999
+    default-series: precise
+    juju-origin: ppa
+    data-dir: /home/arges/src/juju

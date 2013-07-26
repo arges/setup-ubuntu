@@ -1,0 +1,7 @@
+SOURCE_CHROOTS_DIR="/srv/devel/schroot"
+SCHROOT_CONF_SUFFIX="source-root-users=root,sbuild,admin
+source-root-groups=root,sbuild,admin
+preserve-environment=true"
+SKIP_UPDATES="1"
+DEBOOTSTRAP_PROXY=http://127.0.0.1:8000/
+DEBOOTSTRAP_INCLUDE="devscripts"

@@ -1,0 +1,32 @@
+[user]
+	name = Chris J Arges
+	email = chris.j.arges@canonical.com
+[user "canonical"]
+	email = chris.j.arges@canonical.com
+[user "gmail"]
+	email = christopherarges@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[sendemail "canonical"]
+	from = Chris J Arges <chris.j.arges@canonical.com>
+	smtpencryption = tls
+	smtpserver = smtp.canonical.com
+	smtpuser = canonical
+	smtpserverport = 587
+	chainreplyto = true
+[sendemail "gmail"]
+	from = Chris J Arges <christopherarges@gmail.com>
+        smtpserver = smtp.gmail.com
+        smtpuser = christopherarges@gmail.com
+        smtpencryption = tls
+        smtpserverport = 587
+        chainreplyto = true
+[credential]
+	helper = store
